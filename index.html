@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -15,14 +20,16 @@
             <p class="apresentacao__conteudo__paragrafo">Olá! Sou Yawor Petermann, desenvolvedor Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__link" href="https://instagram.com/yaworpetermann">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/YaworPetermann">GitHub</a>
+                <a class="apresentacao__links__link" href="https://instagram.com/yaworpetermann"><img src="./assets/instagram.png" alt="Icone do Instagram">Instagram</a>
+                <a class="apresentacao__links__link" href="https://github.com/YaworPetermann"><img src="./assets/github.png" alt="Icone do Github">GitHub</a>
             </div>
         </section>
-        <img src="MinhaFoto.jpg" alt="Foto do Yawor" class="foto">
+        <img src="./assets/MinhaFoto.jpg" alt="Foto do Yawor" class="foto">
 
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Yawor</p>
+    </footer>
 </body>
 </html>
